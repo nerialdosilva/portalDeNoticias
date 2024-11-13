@@ -38,7 +38,7 @@ a:hover {
     color: var(--brand-color-light);
 }
 
-
+/* --brand-color-light */
 
 hi, h2, h3 {
     font: inherit;
@@ -70,3 +70,9 @@ main {
     color: var(--text-color-primary);
     box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
 }
+
+/* header span {
+    background-image: url(../assets/icons/ArrowRight.svg);
+    background-repeat: no-repeat;
+    
+} */

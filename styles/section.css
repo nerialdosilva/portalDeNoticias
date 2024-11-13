@@ -2,19 +2,20 @@ section header {
     border-top: 1px solid var(--stroke-color);
     padding-block: 12px 24px;
     font: var(--text-span);
+    justify-content: space-between;
 
-    header a {
-        justify-self: end;
+    a {
+        justify-content: end;
         align-items: center;
         gap: 8px;
-
+        
         span {
             background-image: url(../assets/icons/ArrowRight.svg);
             width: 16px;
             height: 16px;
-        }    
+        }
 
-        &:hover span {
+        &:hover span{
             background-image: url(../assets/icons/ArrowRightHover.svg);
         }
     }
